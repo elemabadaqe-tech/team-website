@@ -53,11 +53,13 @@ const projects = [
   { title: 'Accessible contact form', category: 'html', description: 'Labelled fields, helpful errors and keyboard-friendly controls.' },
   { title: 'Dark mode toggle', category: 'js', description: 'Switches the colour theme and remembers the choice.' },
   { title: 'Flexbox navigation bar', category: 'css', description: 'A header that collapses into a menu button on small screens.' },
-  { title: 'Library landing page', category: 'lib', description: 'A single semantic HTML page with headings, lists and links.' },
+  { title: 'Student Attandace system', category: 'web', description: 'A web application for recording and monitoring student attendance.' },
   { title: 'Adminstration page', category: 'lib', description: 'A single semantic HTML page showing administrators roles.' },
+  {title:  'GitHub Portfolio Repository',category: "git",description: 'A GitHub repository containing all the projects and code for the portfolio website.'}
+
 ];
 
-const categoryNames = { html: 'HTML', css: 'CSS', js: 'JavaScript', lib: 'Library',};
+const categoryNames = { html: 'HTML', css: 'CSS', js: 'JavaScript', web: 'HTML', lib: 'Library', git: 'Git' };
 
 const projectList = document.querySelector('#project-list');
 const projectCount = document.querySelector('#project-count');
