@@ -399,16 +399,19 @@ textarea[aria-invalid="true"] {
     flex-direction: column;
   }
 
-  .section {
-    padding-block: var(--space-3);
-  }
+ .faq-section details {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
 }
 
-/* ---------- 11. Respect reduced-motion preferences ---------- */
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    transition: none !important;
-  }
+.faq-section summary {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.page-header {
+    text-align: center;
+    margin: 2rem 0;
 }
