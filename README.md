@@ -6,7 +6,7 @@ README.md (template)
 | Name            | Registration no. | GitHub username |
 |-----------------|------------------|-----------------|
 |Elema Badaqe Duba|   COM/3435/26    | elemabadaqe-tech|
-|                 |                  |                 |
+|Ryan Dary Kipkirui|  COM/3439/26    |daryryan28-byte  |
 
 ## Who drove each part
 - Part 0, 2, 4: elemabadaqe-tech
