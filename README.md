@@ -1,31 +1,35 @@
-# Tandem Team Website
+README.md (template)
+# Team Name:Desert Devops.
+**Live site:** https://username.github.io/team-website/
 
-A responsive, three-page portfolio site for an independent creative team. It uses plain HTML, CSS, and JavaScript with no build step or package dependencies.
+## Team
+| Name            | Registration no. | GitHub username |
+|-----------------|------------------|-----------------|
+|Elema Badaqe Duba|   COM/3435/26    | elemabadaqe-tech|
+|                 |                  |                 |
 
-## Project structure
+## Who drove each part
+- Part 0, 2, 4: elemabadaqe-tech
+- Part 1, 3: daryryan28-byte
 
-```text
-team-website/
-├── index.html        # Home page
-├── projects.html     # Selected projects
-├── contact.html      # Contact details and inquiry form
-├── css/
-│   └── styles.css    # Shared styles for every page
-├── js/
-│   └── script.js     # Shared navigation and form behavior
-├── .gitattributes    # Consistent text-file line endings
-└── README.md
-```
+## Personalisation
+- Our colours:Light Theme: --color-primary: #2563eb --color-primary-dark: #1d4ed8 Dark Theme: --color-primary: #60a5fa --color-primary-dark: #3b82f6
+- Projects we added:Student Attandace system,Adminstration page,GitHub Portfolio Repository
+- Extension challenge(s) completed:Added a fourth page ,faq.html
 
-## Preview
+## Reflection
+1.
+A <button> can be accessed using the keyboard (Tab, Enter, and Space keys), while a <div> cannot by default. A <button> is also announced correctly by screen readers, helping users with visual impairments understand its purpose.
 
-Open `index.html` in a browser. The pages can also be served with any static file server; no compilation is required.
+2.
+Without defer, the JavaScript may run before the HTML elements have been created. This can cause errors when the script tries to access elements that do not yet exist because the browser has not finished parsing the pa
 
-The site loads its typefaces from Google Fonts and its sample photography from Unsplash, so those assets require an internet connection.
+3.
+Using innerHTML could allow visitors to insert HTML or JavaScript code into the page. This creates a security risk because malicious code could run in the user's browser.
 
-## Customize
+4.
+Client-side JavaScript can be disabled or bypassed by users. The server must validate all incoming data to ensure it is safe, complete, and follows the required rules.
 
-- Replace the Tandem name, sample project copy, and contact details with your team's information.
-- Update the contact address in `contact.html` wherever `hello@tandem.studio` appears. The form opens a prefilled email in the visitor's default email app; it does not submit to a server.
-- Replace the remote image URLs in the HTML with your own photography.
-- Adjust the shared colors, typography, and responsive layouts in `css/styles.css`.
+5.Local storage is tied to a specific origin, which includes the protocol, domain, and port. A file opened directly from a computer uses a different origin from a page served through Live Server, so they do not share the same stored data
+
+6.The navigation menu is duplicated across all pages. This means every page must be edited whenever a navigation link changes, which increases the chance of mistakes. A common solution is to use reusable templates or server-side includes so the navigation is written only once.
